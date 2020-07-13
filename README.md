@@ -29,8 +29,8 @@ Bert -> https://github.com/google-research/bert
 | 2\_electra | base       | uncased | 32              | 40                         | 1                          |
 | 3\_electra | small      | uncased | 32              | 40                         | 1                          |
 | 4\_electra | base       | uncased | 64              | 200                        | 1                          |
-| 5\_bert    | base       | uncased | 32              | 40                         | 1                          |
-| 6\_albert  | base       | uncased | 32              | 40                         | 1                          |
+| 5\_bert    | base       | uncased | 32              | 40                         | 3                          |
+| 6\_albert  | base       | uncased | 32              | 40                         | 3                          |
 
 
 ## Pretraining Details
@@ -61,19 +61,20 @@ N_EPOCHS = 3
 N_GPU = 1
 ```
 
-| Model                                 | Farm Ner avg score |
-|---------------------------------------|---------------|
-| 0\_electra                            | 0\.86         |
-| 1\_electra                            | 0\.58         |
-| 2\_electra                            | 0\.84         |
-| 3\_electra                            | 0\.77         |
-| 4\_electra                            | 0\.86         |
-| 5\_bert                               | 0\.84         |
-| 6\_albert                             | 0\.83         |
-| 10\_bert\_base\_128k\_uncased\_dbmdz  | 0\.84         |
-| 11\_bert\_base\_32k\_uncased\_dbmdz   | 0\.83         |
-| 13\_electra\_base\_32k\_cased\_dbmdz  | 0\.87         |
-| 14\_electra\_small\_32k\_cased\_dbmdz | 0\.69         |
+| Model                                           | Farm Ner avg score | Dataset 2 |
+|-------------------------------------------------|--------------------|-----------|
+| 0\_electra                                    | 0\.86            | 0\.92   |
+| 1\_electra                                    | 0\.58            | \-      |
+| 2\_electra                                    | 0\.84            | 0\.74   |
+| 3\_electra                                    | 0\.77            | 0\.57   |
+| 4\_electra                                    | 0\.86            | 0\.73   |
+| 5\_bert                                       | 0\.84            | 0\.90   |
+| 6\_albert                                     | 0\.83            | 0\.87   |
+| 10\_bert\_base\_128k\_uncased\_dbmdz  | 0\.84            | 0\.76   |
+| 11\_bert\_base\_32k\_uncased\_dbmdz   | 0\.83            | 0\.74   |
+| 13\_electra\_base\_32k\_cased\_dbmdz  | 0\.87            | 0\.74   |
+| 14\_electra\_small\_32k\_cased\_dbmdz | 0\.69            | 0\.50   |
+
 
 
 ### QA
