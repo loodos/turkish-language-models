@@ -48,7 +48,7 @@ But we are planning to share some part of it. Check our [website](https://www.lo
 
 * On pretraining and finetuning, we have found a normalization issue specific to Turkish in both Google's and Huggingface's repos.
 You can check details from [here](https://github.com/huggingface/transformers/issues/6680).
-We are waiting Huggingface for solving this issue. Until it is solved, we significantly suggest you to use our TextNormalization module before tokenizing.
+We are waiting Huggingface for solving this issue. Until it is solved, we significantly suggest you to use our [TextNormalization module](https://github.com/Loodos/turkish-language-models/blob/master/text_normalization.py) before tokenizing.
 
 ## Finetune Results
 
