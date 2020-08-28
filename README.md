@@ -27,7 +27,7 @@ Bert -> https://github.com/google-research/bert
 
 # Trained Models
 
-|         Model                     | Vocabulary Size (x1000) | Train Raw Text Data Size (GB) |     Train Step (Million)   |
+|         Model                     | Vocabulary Size (Thousand) | Train Raw Text Data Size (GB) |     Train Step (Million)   |
 |-----------------------------------|-----------------|----------------------|-------------------------------------|
 |[electra-small-turkish-cased-discriminator](https://github.com/Loodos/transformers/tree/master/model_cards/loodos/electra-small-turkish-cased-discriminator)       | 32              | 200                  | 1                                   | 
 |[electra-small-turkish-uncased-discriminator](https://github.com/Loodos/transformers/tree/master/model_cards/loodos/electra-small-turkish-uncased-discriminator)      | 32              | 40                   | 1                                   | 
@@ -126,8 +126,7 @@ Training dataset is [Sentiment Analysist](https://github.com/merveyapnaz/Sentime
 
 We are preparing a paper about our models and results. Until it is published, you can give this repository in your citations.
 
-## Acknowledgments and Special Thanks
+## Special Thanks
 
 We are thankful to [TensorFlow Research Cloud (TFRC)](https://www.tensorflow.org/tfrc) for providing TPUs for pretraining our models,
-to [DBMDZ](https://github.com/stefan-it/turkish-bert) for their detailed pretraining cheatsheet,
-[Prof. Dr. Banu Diri](https://avesis.yildiz.edu.tr/diri) for guidance and providing some datasets. 
+to [DBMDZ](https://github.com/stefan-it/turkish-bert) for their detailed pretraining cheatsheet and [Prof. Dr. Banu Diri](https://avesis.yildiz.edu.tr/diri) for guidance and providing some datasets. 
