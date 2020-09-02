@@ -25,12 +25,12 @@ neither Java nor JVM are required.
 
 |         Model                     | Vocabulary Size (Thousand) | Train Raw Text Data Size (GB) |     Train Step (Million)   |
 |-----------------------------------|-----------------|----------------------|-------------------------------------|
-|[loodos/electra-small-turkish-cased-discriminator](https://github.com/Loodos/transformers/tree/master/model_cards/loodos/electra-small-turkish-cased-discriminator)       | 32              | 200                  | 1                                   | 
-|[loodos/electra-small-turkish-uncased-discriminator](https://github.com/Loodos/transformers/tree/master/model_cards/loodos/electra-small-turkish-uncased-discriminator)      | 32              | 40                   | 1                                   | 
-|[loodos/electra-base-turkish-uncased-discriminator](https://github.com/Loodos/transformers/tree/master/model_cards/loodos/electra-base-turkish-uncased)     | 32              | 40                   | 1                                   | 
-|[loodos/electra-base-turkish-64k-uncased-discriminator](https://github.com/Loodos/transformers/tree/master/model_cards/loodos/electra-base-turkish-64k-uncased-discriminator)   | 64              | 200                  | 1                                   | 
-|[loodos/bert-base-turkish-uncased](https://github.com/Loodos/transformers/tree/master/model_cards/loodos/bert-base-turkish-uncased)          | 32              | 40                   | 3                                   |
-|[loodos/albert-base-turkish-uncased](https://github.com/Loodos/transformers/tree/master/model_cards/loodos/albert-base-turkish-uncased)       | 32              | 40                   | 3                                   |
+|[loodos/electra-small-turkish-cased-discriminator](https://huggingface.co/loodos/electra-small-turkish-cased-discriminator)       | 32              | 200                  | 1                                   | 
+|[loodos/electra-small-turkish-uncased-discriminator](https://huggingface.co/loodos/electra-small-turkish-uncased-discriminator)      | 32              | 40                   | 1                                   | 
+|[loodos/electra-base-turkish-uncased](https://huggingface.co/loodos/electra-base-turkish-uncased)     | 32              | 40                   | 1                                   | 
+|[loodos/electra-base-turkish-64k-uncased-discriminator](https://huggingface.co/loodos/electra-base-turkish-64k-uncased-discriminator)   | 64              | 200                  | 1                                   | 
+|[loodos/bert-base-turkish-uncased](https://huggingface.co/loodos/bert-base-turkish-uncased)          | 32              | 40                   | 3                                   |
+|[loodos/albert-base-turkish-uncased](https://huggingface.co/loodos/albert-base-turkish-uncased)       | 32              | 40                   | 3                                   |
 
 
 ## Pretraining Details
@@ -70,7 +70,7 @@ N_GPU = 1
 |------------------------------------------------------|--------------------|-----------|
 | loodos/electra-small-turkish-cased-discriminator                          | 0.58               | -         |
 | loodos/electra-small-turkish-uncased-discriminator                        | 0.77               | 0.57      |
-| loodos/electra-base-turkish-uncased-discriminator                         | 0.84               | 0.74      |
+| loodos/electra-base-turkish-uncased                         | 0.84               | 0.74      |
 | loodos/electra-base-turkish-64k-uncased-discriminator                     | 0.86               | 0.73      |
 | loodos/bert-base-turkish-uncased                            | 0.84               | 0.90      |
 | loodos/albert-base-turkish-uncased                          | 0.83               | 0.87      |
@@ -91,7 +91,7 @@ Training dataset is [TQuad](https://github.com/TQuad/turkish-nlp-qa-dataset).
 |-------------------------------------------------------------|-------------|----------|
 | loodos/electra-small-turkish-cased-discriminator                                 | 28.57       | 47.00    |
 | loodos/electra-small-turkish-uncased-discriminator                               | 44.08       | 64.15    |
-| loodos/electra-base-turkish-uncased-discriminator                                | 55.10       | 75.27    |
+| loodos/electra-base-turkish-uncased                                | 55.10       | 75.27    |
 | loodos/electra-base-turkish-64k-uncased-discriminator                            | 58.91       | 78.24    |
 | loodos/bert-base-turkish-uncased                                   | 53.87       | 74.66    |
 | loodos/albert-base-turkish-uncased                                 | 45.30       | 66.91    |
@@ -109,7 +109,7 @@ Training dataset is [Sentiment Analysist](https://github.com/merveyapnaz/Sentime
 |-----------------------------------------------------------|---------------------|
 | loodos/electra-small-turkish-cased-discriminator                               | 0.8403              |
 | loodos/electra-small-turkish-uncased-discriminator                             | 0.8938              |
-| loodos/electra-base-turkish-uncased-discriminator                              | 0.9143              |
+| loodos/electra-base-turkish-uncased                              | 0.9143              |
 | loodos/electra-base-turkish-64k-uncased-discriminator                          | 0.9167              |
 | loodos/bert-base-turkish-uncased                                 | 0.9207              |
 | loodos/albert-base-turkish-uncased                               | 0.8900              |
