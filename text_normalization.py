@@ -52,13 +52,6 @@ class TextNormalization:
                 normalized_sentences.append(self.zemberek_normalizer.normalize(sentence))
             outputs = "".join(normalized_sentences)
 
-        outputs = outputs \
-            .replace(" ,", ", ") \
-            .replace(" .", ". ") \
-            .replace(" !", "! ") \
-            .replace(" ?", "? ") \
-            .replace(" ' ", "'")
-
         if do_lower_case:
             if is_turkish:
                 outputs = outputs.replace('\u0049', '\u0131')  # I -> ı
